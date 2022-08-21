@@ -15,7 +15,7 @@ const Write = () => {
                 <label htmlFor="imgwriteinput">
                 <i className="writecion fa-solid fa-plus"></i>
                 </label>
-                <input onChange={e=>ChangePic(e)} type="file" style={{display:"none"}}  id="imgwriteinput" />
+                <input onChange={e=>ChangePic(e.target.files[0])} type="file" style={{display:"none"}}  id="imgwriteinput" />
             </div>
             <div className="writeFormGroup">
               <textarea className='inputtext' placeholder='متن پست' cols="30" rows="10"></textarea>
