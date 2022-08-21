@@ -1,0 +1,67 @@
+.Register{
+    background: linear-gradient(rgba(246, 244, 244, 0.227),rgba(246, 244, 244, 0.222)),url('./Pen&Book.jpg');
+    width: 100vw;
+    height: calc(100vh - 60px);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Register>label{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.RegisterForm{
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.RegisterForm>label{
+    direction: rtl;
+    font-size: 25px;
+    margin: 20px 0;
+}
+.RegisterForm>input{
+    padding: 10px;
+    direction: rtl;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px black;
+    transition: all 0.4s;
+}
+.RegisterForm>input:focus{
+outline: none;
+border-bottom: 3px solid aqua;
+}
+.Registerbtn{
+    padding: 10px;
+    font-size: 25px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    background-color: limegreen;
+    transition: all 0.2s;
+}
+.Registerbtn:hover{
+    margin-top: 25px;
+    padding: 8px;
+}
+.Loginbtn{
+    position: absolute;
+    top:15%;
+    left: 3%;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}

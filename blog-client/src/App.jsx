@@ -1,13 +1,12 @@
 import Topbar from "./Components/TopBar/Topbar";
-import Setting from "./Pages/Settings/Setting";
-import Write from "./Pages/Write/Write";
+import Register from "./Pages/Register/Register";
 
 
 function App() {
   return (
     <div className="App">
       <Topbar />
-      <Setting />
+     <Register/>
     </div>
   );
 }
