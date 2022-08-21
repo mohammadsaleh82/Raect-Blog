@@ -1,0 +1,47 @@
+.Write{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.writeForm{
+padding-top: 50px;
+}
+.writeFormGroup{
+    display: flex;
+    align-items: center;
+}
+.writecion{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    margin-left: 15px;
+}
+.inputtitle{
+    border: none;
+    font-size: 50px;
+    direction: rtl;
+}
+.inputtitle:focus{
+    outline: none;
+}
+.inputtext{
+    border: none;
+    font-size: 50px;
+    direction: rtl;
+    margin-top: 20px;
+}
+.inputtext:focus{
+    outline: none;
+}
+.imgWrite{
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 50px;
+}

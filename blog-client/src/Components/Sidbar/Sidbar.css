@@ -1,0 +1,73 @@
+.Sidbar{
+    flex: 3;
+    direction: rtl;
+    margin: 20px;
+    padding-bottom: 40px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 8px black;
+}
+@media screen and (max-width:600px) {
+    .Sidbar{
+        flex: 12;
+    } 
+}
+.sidbaritem img{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.sidbaritem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidbartitle{
+    width: 80%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Varela Round', sans-serif;
+    color: #222;
+    line-height: 20px;
+    text-align: center;
+}
+.sidbaritem p{
+    text-align: justify;
+    width: 80%;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding: 10px;
+}
+.sidbarList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.sidbarListItem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.sidbarsocial{
+    margin-top: 20px;
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+.sidbaricon{
+    margin-left: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
