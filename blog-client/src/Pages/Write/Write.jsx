@@ -2,8 +2,15 @@ import React from 'react'
 import './Write.css'
 const Write = () => {
   const ChangePic=(e)=>{
+   if(e){
     console.log(e)
     document.getElementById('imgWrite').src=document.getElementById('imgwriteinput').value
+    const fileReader = new FileReader();
+    fileReader.readAsDataURL(e);
+    fileReader.addEventListener("load", function () {
+      document.getElementById('imgWrite').setAttribute('src',this.result)
+    })
+   }
   }
   return (
     <div className='Write'>
