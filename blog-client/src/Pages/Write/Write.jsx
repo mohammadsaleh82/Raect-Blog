@@ -3,8 +3,6 @@ import './Write.css'
 const Write = () => {
   const ChangePic=(e)=>{
    if(e){
-    console.log(e)
-    document.getElementById('imgWrite').src=document.getElementById('imgwriteinput').value
     const fileReader = new FileReader();
     fileReader.readAsDataURL(e);
     fileReader.addEventListener("load", function () {
@@ -27,6 +25,7 @@ const Write = () => {
             <div className="writeFormGroup">
               <textarea className='inputtext' placeholder='متن پست' cols="30" rows="10"></textarea>
             </div>
+            <button type={'submit'} className='WriteSubmit'>ذخیره</button>
         </form>
     </div>
   )

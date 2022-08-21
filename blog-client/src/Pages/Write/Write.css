@@ -46,3 +46,14 @@ padding-top: 50px;
     border-radius: 10px;
     margin-top: 50px;
 }
+.WriteSubmit{
+    position: fixed;
+    left:2%;
+    top:30%;
+    border: none;
+    padding: 8px;
+    background-color: rgb(16, 149, 105);
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px black;
+}
